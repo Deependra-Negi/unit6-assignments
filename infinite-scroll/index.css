@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    font-size:2.5rem;
+    font-weight:500;
+    color: rgb(187, 0, 0);
+    margin:1rem 0;
+}
+#cont{
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid rgb(255, 79, 79);
+    padding: 1rem;
+    overflow-y: scroll;
+    font-size: 3rem;
+}
+.divCont{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(148, 51, 51);
+}
+
+ /* const debounce = function (fn, delay) {
+     let timer;
+     return function () {
+         let context = this,
+             args = arguments;
+         clearTimeout(timer);
+         timer = setTimeout(() => {
+            initial.apply(context, arguments) 
+         }, delay);
+     }
+ } */
