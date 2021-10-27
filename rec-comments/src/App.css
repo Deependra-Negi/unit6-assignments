@@ -1,0 +1,8 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  justify-content: center;
+  background-color: rgb(218, 255, 243);
+}
